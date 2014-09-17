@@ -78,7 +78,7 @@ class DataFetching(object):
 						continue
 					else:
 						s = StockData.new()
-						s.code,s.exch = cod, exch
+						s.code,s.exchange = cod, exch
 						s.Date = str(da[0])
 						s.Open = float(da[1])
 						s.High = float(da[2])
