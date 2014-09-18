@@ -5,6 +5,8 @@ import os
 import base64
 import time
 import datetime
+import StringIO
+import gzip
 
 def strptime(dtime, format):
     """
